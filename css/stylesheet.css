@@ -1,0 +1,28 @@
+h1 {
+    font-family: Arial, Garamond, sans-serif;
+    text-align: center;
+    margin: auto;
+    padding: 40px 70px 10px 70px;
+    font-size: 60px;
+    line-height: 60px;
+    text-transform: uppercase;
+    font-weight: 900;
+
+}
+
+#headshot {
+    height: 100px;
+    width: 150px;
+    border-radius: 50px;
+    
+}
+
+#start {
+    font-family: Garamond;
+    text-align: center;
+    font-size: 20px;
+}
+
+h2 {
+    font-family: Garamond, sans-serif;
+}
