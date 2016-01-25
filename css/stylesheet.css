@@ -7,22 +7,56 @@ h1 {
     line-height: 60px;
     text-transform: uppercase;
     font-weight: 900;
+}
 
+header {
+    background-image: url("images/DarkBackground.jpg");
+}
+
+/*
+#verticaltext, #verticaltext2{
+    width:1px;
+    word-wrap: break-word;
+    font-family: monospace; 
+    white-space: pre;
+}
+*/
+#verticaltext {
+    position: relative;
+    left: 50px;
 }
 
 #headshot {
-    height: 100px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     border-radius: 50px;
-    
 }
 
 #start {
     font-family: Garamond;
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 h2 {
     font-family: Garamond, sans-serif;
+    color: blue;
+}
+
+#aboutme {
+    font-size: 1em;
+    font-family: Helvetica, Arial, sans-serif;
+    font-style: oblique;
+    font-weight: 500;
+    color: #303030;
+    display: block;
+    text-align: center;
+}
+
+#interestslist {
+    font-family: Helvetica;
+    font-weight: 600;
+    color: #202020;
+    text-align: center;
 }
