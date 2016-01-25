@@ -4,7 +4,7 @@ h1 {
   font-family: "Source Code Pro", Arial;
   line-height: 1;
   font-weight: bold;
-  font-size: 60px;
+  font-size: 70px;
   color: purple;
 }
 #web,#dev {
@@ -28,13 +28,17 @@ h1 {
   color: white;
 }
 
-header {
-    background-image: url("../images/DarkBackground.jpg");
+body {
+    background: url("../images/DarkBackground.jpg") no-repeat center center fixed;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+    background-size: cover;
 }
 
 #headshot {
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     border-radius: 50px;
 }
 
@@ -47,12 +51,17 @@ header {
 
 #webdeveloper {
     text-align:right;
-    padding:20px;
+    padding-right: 20px;
+    font-size: 40px;
 }
 
 h2 {
     font-family: Garamond, sans-serif;
-    color: blue;
+    color: black;
+    background-color:#ff9966;
+    padding: 10px 10px 10px 30px;
+    border-color: black;
+    border-radius: 20px;
 }
 
 #aboutme {
@@ -63,6 +72,7 @@ h2 {
     color: #303030;
     display: block;
     text-align: center;
+    color: white;
 }
 
 #interestslist {
@@ -70,6 +80,7 @@ h2 {
     font-weight: 600;
     color: #202020;
     text-align: center;
+    color: white;
 }
 
 #links {
@@ -81,4 +92,5 @@ h2 {
 .social {
     height: 50px;
     width: 50px;
+    border-radius: 10px;
 }
