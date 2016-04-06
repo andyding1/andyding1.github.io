@@ -1,4 +1,4 @@
-Andrew Ding's Personal Webpage
+Andy Ding's Personal Webpage
 ======
 This page uses:
 * HTML5

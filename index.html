@@ -1,27 +1,80 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="css/stylesheet.css" type="text/css" />
+        <link rel="stylesheet" href="css/main.css" type="text/css" />
+        <link rel="stylesheet" href="css/content.css" type="text/css" />
         <link href='https://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
         <title>Andy Ding</title>
     </head>
     <body>
         <header>
-          <div id="introduction">
-            <div>
-              <h1 id="name">Andy Ding</h1>
-              <h2 id="occupation">Web Developer</h2>
-            </div>
-            <div>
+          <div class="wrapper">
+            <section class="heading">
+              <span id="name">Andy Ding</span>
+              <span id="occupation">Web Developer</span>
+            </section>
+
+            <section class="content">
+              <input type="radio" id="home" value="1" name="tractor" checked='checked' />
+              <input type="radio" id="projects" value="2" name="tractor" />
+              <input type="radio" id="resume" value="3" name="tractor" />
+              <input type="radio" id="skills" value="4" name="tractor" />
+
+                <nav>
+                <label for="home" class='fontawesome-user'>Me</label>
+                <label for="projects" class='fontawesome-laptop'>Projects</label>
+                <label for="resume" class='fontawesome-file'>Resume</label>
+                <label for="skills" class='fontawesome-align-justify'>Skills</label>
+                </nav>
+
+                <article class='one'>
+                  <h2>
+                    <!-- <img src='http://www.gravatar.com/avatar/416c176a1b322ee5571889383e80045d?s=300' /> -->
+                    <img src='images/iMagineMonkey.png' />
+                    <p style="color: black;">Hi I'm Andy, </p>
+                    <p>
+                    Much like the monkey pictured above I am an imaginative and curious fellow. Going along with this metaphor, I see the web as a giant banana tree
+                    and all things related to the web whether it be coding/development, applications/software, web technologies; well they are my bananas. I happen to
+                    always be hungry for bananas. I enjoy finding and doing work that gives me these metaphorical bananas. Feel free to contact me at <span style="color:white">andy.ding89@gmail.com</span>
+                    </p>
+                  </h2>
+                </article>
+
+                <article class='two'>
+                  <a href="https://streamrcast.herokuapp.com" class="projectlink">STREAMR</a>
+                  <p>Chat/Video Application</p>
+                  <p style="font-style: italic; color: white">Main Technologies: JavaScript, React, Socket.io, Express, Webpack/Babel/JSX, CSS Transition effects, WebRTC</p>
+                <br/>
+                  <a href="https://blooming-sierra-23459.herokuapp.com/" class="projectlink">fuggedabouddit</a>
+                  <p>Reddit Clone</p>
+                  <p style="font-style: italic; color: white">Main Technologies: JavaScript, Express, Sequelize, MySQL, React/JSX, EJS, Password Hashing, Cookies/SessionID, jQuery</p>
+                  <br/>
+                  <h5>*Note: Currently not optimized for Safari</h6>
+                </article>
+
+                <article class='three'>
+                  <span>*Hover over any link at bottom to load resume*</span>
+                  <object data="documents/Ding.Andrew.Resume.pdf" type="application/pdf" width="100%" height="95%">
+                      alt : <a href="documents/Ding.Andrew.Resume.pdf">test.pdf</a>
+                  </object>
+                  <!-- <iframe id="iframepdf" src="documents/Ding.Andrew.Resume.pdf"></iframe> -->
+                </article>
+
+                <article class='four'>
+
+                </article>
+            </section>
+
+            <section class="links">
               <table>
                 <tr>
                   <td><a href="https://www.linkedin.com/in/ading1"><div class="social-roll linkedin"></div></a></td>
                   <td><a href="https://github.com/andyding1"><div class="social-roll github"></div></a></td>
                   <td><a href="https://www.facebook.com/andy.ding.58"><div class="social-roll facebook"></div></a></td>
-                  <td><a><div class="social-roll email"></div></a></td>
+                  <td><a href="mailto:andy.ding89@gmail.com"><div class="social-roll email"></div></a></td>
                 </tr>
               </table>
-            <div>
+            </section>
           </div>
         </header>
     </body>
